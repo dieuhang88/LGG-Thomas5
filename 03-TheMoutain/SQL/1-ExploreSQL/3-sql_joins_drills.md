@@ -1,5 +1,5 @@
 
-# 04 - SQL Joins
+# SQL Joins
 
 ## Understanding Keys
 
