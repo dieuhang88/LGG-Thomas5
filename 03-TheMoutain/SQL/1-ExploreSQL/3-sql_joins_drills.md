@@ -65,49 +65,65 @@ LIMIT 10;
 
 ### 2. List all albums by the artist "Queen"
 
-Expected output: Album titles of Queen.
+Expected output:
 
----
+![Expected Output](src/3.2.png)
+
+
 
 ### 3. Count how many tracks are in each genre
 
-Use `GROUP BY genreId` and a join with the genres table.
+Expected output:
 
----
+![Expected Output](src/3.3.png)
+
+
 
 ### 4. Calculate the average price of tracks per genre (rounded to two decimal places)
 
-Use `AVG()` and `ROUND()` functions with a join.
+Expected output:
 
----
+![Expected Output](src/3.4.png)
+
+
 
 ### 5. Find total sales per customer
 
-Join invoices, invoice_items, and customers; group by customer.
+Expected output:
 
----
+![Expected Output](src/3.5.png)
+
+
 
 ### 6. Total sales by month
 
-Use `strftime('%Y-%m', InvoiceDate)` and group by it.
+Expected output:
 
----
+![Expected Output](src/3.6.png)
+
+
 
 ### 7. Highest-spending customers by employee
 
-Group by both employee and customer to sum total sales.
+Expected output:
 
----
+![Expected Output](src/3.7.png)
+
+
 
 ### 8. Challenge: Top-selling genre (by quantity sold) in each country
 
-Use views or common table expressions (CTEs) with grouping and ranking.
+Expected output:
 
----
+![Expected Output](src/3.8.png)
+
+
 
 ### 9. Mega Challenge: Album track sales and ranking per artist
 
-Output: Total tracks sold per album, and rank within artist group.
+Expected output:
+
+![Expected Output](src/3.9.png)
 
 ---
 
